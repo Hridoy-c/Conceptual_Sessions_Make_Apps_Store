@@ -1,11 +1,14 @@
 import React from 'react'
+import Hero from '@/components/homepage/Hero'
+import TrendingApps from '@/components/homepage/TrendingApps'
 
-const page = () => {
+const HomePage = () => {
   return (
     <div>
-      <h1>Home</h1>
+        <Hero />
+        <TrendingApps />
     </div>
   )
 }
 
-export default page
+export default HomePage
