@@ -1,17 +1,15 @@
-interface IAppsType {
-    image: string
-  title: string
-  companyName: string
-  id: number
-  description: string
-  size: number
-  reviews: string
-  ratingAvg: number
-  downloads: string
-  ratings: TRating[]
-}
-
-export type TRating = {
-  name: string
-  count: number
+export interface IAppItem {
+  appId: number;
+  appName: string;
+  developer: string;
+  icon: string;
+  category: string;
+  description: string;
+  rating: number;
+  reviewsCount: number;
+  downloads: string;
+  price: string;
+  sizeInMb: number;
+  version: string;
+  releaseYear: number;
 }

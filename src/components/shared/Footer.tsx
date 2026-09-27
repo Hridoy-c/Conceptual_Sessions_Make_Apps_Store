@@ -24,7 +24,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="w-full bg-[#0B0C0E] border-t border-zinc-800/80 mt-20">
+    <footer className="w-full bg-[#0B0C0E] border-t border-zinc-800/80 ">
       {/* 90vw Centered Container */}
       <div className="mx-auto w-[90vw] py-12 md:py-16">
         
